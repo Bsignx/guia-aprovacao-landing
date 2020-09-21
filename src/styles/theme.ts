@@ -24,7 +24,7 @@ export default {
     primary: '#E3B04B',
     primaryHover: '#B18A3D',
     secondary: '#E3B04B',
-    mainBg: '#1B1B1B',
+    mainBg: '#111111',
     boxBg: '#FAFAFA',
     texts: '#030517',
     white: '#FFFFFF',
