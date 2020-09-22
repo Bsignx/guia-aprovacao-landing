@@ -46,11 +46,16 @@ export type sectionConcepts = {
 
 export type sectionModules = {
   title: string
-  modules: {
+  modules: Array<{
     title: string
     subtitle: string
     description: string
-  }
+  }>
+}
+
+export type quoteSection = {
+  quote: string
+  description: string
 }
 
 export type LandingPageProps = {
