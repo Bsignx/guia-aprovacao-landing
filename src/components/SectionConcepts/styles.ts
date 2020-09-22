@@ -20,11 +20,7 @@ export const List = styled.ul`
 
     ${media.greaterThan('medium')`
       padding: ${theme.spacings.small} ${theme.spacings.xsmall} 0;
-      column-count: 2;
-    `}
-
-    ${media.greaterThan('large')`
-      column-count: 3;
+      column-count: 1;
     `}
   `}
 `

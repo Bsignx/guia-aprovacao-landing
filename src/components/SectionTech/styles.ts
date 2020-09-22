@@ -47,15 +47,19 @@ export const Icons = styled.img`
 
 export const IconsName = styled.p`
   ${({ theme }) => css`
-    font-size: ${theme.font.sizes.xsmall};
+    font-size: ${theme.font.sizes.small};
     margin-top: ${theme.spacings.xxsmall};
     margin-bottom: ${theme.spacings.xxsmall};
+    font-weight: ${theme.font.bold};
 
     ${media.greaterThan('medium')`
       font-size: ${theme.font.sizes.small};
-      font-weight: ${theme.font.bold};
     `}
   `}
 `
 
-export const IconsDescription = styled.p``
+export const IconsDescription = styled.p`
+  ${({ theme }) => css`
+    font-size: ${theme.font.sizes.xxsmall};
+  `}
+`

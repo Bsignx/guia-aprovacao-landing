@@ -37,9 +37,17 @@ export type sectionBenefits = {
   }>
 }
 
+export type sectionConcepts = {
+  title: string
+  concepts: Array<{
+    title
+  }>
+}
+
 export type LandingPageProps = {
   logo: LogoProps
   header: HeaderProps
   sectionAboutPage: sectionAboutPage
   sectionBenefits: sectionBenefits
+  sectionConcepts: sectionConcepts
 }
