@@ -19,7 +19,7 @@ export const Content = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 15rem auto;
+    margin: 6rem auto;
   `}
 `
 
@@ -81,6 +81,7 @@ export const Image = styled.img`
 
     ${media.greaterThan('medium')`
       margin: 0;
+      margin-right: 4rem;
       width: 42rem;
     `}
   `}
