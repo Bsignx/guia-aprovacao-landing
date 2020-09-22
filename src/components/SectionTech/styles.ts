@@ -15,14 +15,14 @@ export const Wrapper = styled.section`
 export const IconsContainer = styled.div`
   ${({ theme }) => css`
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
     column-gap: ${theme.spacings.small};
     row-gap: ${theme.spacings.medium};
     margin-top: ${theme.spacings.large};
 
     ${media.greaterThan('small')`
-      grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+      grid-template-columns: repeat(3, 1fr);
     `}
 
     ${media.greaterThan('medium')`
@@ -32,7 +32,7 @@ export const IconsContainer = styled.div`
   `}
 `
 
-export const Icon = styled.div``
+export const Benefit = styled.div``
 
 export const Icons = styled.img`
   width: 7rem;
@@ -40,8 +40,8 @@ export const Icons = styled.img`
   transition: all 0.4s;
 
   ${media.greaterThan('medium')`
-    width: 12.8rem;
-    height: 12.8rem;
+    width: 10rem;
+    height: 10rem;
   `}
 `
 
@@ -49,6 +49,7 @@ export const IconsName = styled.p`
   ${({ theme }) => css`
     font-size: ${theme.font.sizes.xsmall};
     margin-top: ${theme.spacings.xxsmall};
+    margin-bottom: ${theme.spacings.xxsmall};
 
     ${media.greaterThan('medium')`
       font-size: ${theme.font.sizes.small};
@@ -56,3 +57,5 @@ export const IconsName = styled.p`
     `}
   `}
 `
+
+export const IconsDescription = styled.p``
