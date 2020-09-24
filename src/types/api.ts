@@ -83,6 +83,18 @@ export type Author = {
   }
 }
 
+export type SectionReviewsProp = {
+  title: string
+  reviews: {
+    name: string
+    text: string
+    photo: {
+      url: string
+      alternativeText: string
+    }
+  }[]
+}
+
 export type LandingPageProps = {
   logo: LogoProps
   header: HeaderProps
@@ -93,4 +105,5 @@ export type LandingPageProps = {
   quoteSection: quoteSection
   pricingBox: pricingBox
   author: Author
+  sectionReviews: SectionReviewsProp
 }
