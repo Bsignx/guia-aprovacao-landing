@@ -89,6 +89,8 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     author {
       name
       role
+      title
+      description
       socialLinks {
         title
         url

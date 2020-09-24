@@ -58,7 +58,7 @@ export type quoteSection = {
   description: string
 }
 
-export type PricingBox = {
+export type pricingBox = {
   totalPrice: number
   discountPrice: number
   benefits: string
@@ -71,10 +71,12 @@ export type PricingBox = {
 export type Author = {
   name: string
   role: string
-  socialLinks: {
+  title: string
+  description: string
+  socialLinks: Array<{
     title: string
     url: string
-  }
+  }>
   photo: {
     url: string
     alternativeText: string
@@ -89,5 +91,6 @@ export type LandingPageProps = {
   sectionConcepts: sectionConcepts
   sectionModules: sectionModules
   quoteSection: quoteSection
-  pricingBox: PricingBox
+  pricingBox: pricingBox
+  author: Author
 }
