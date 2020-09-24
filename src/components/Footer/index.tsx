@@ -8,12 +8,7 @@ const Footer = () => (
   <S.Wrapper>
     <Container>
       <p>
-        Desenvolvido por{' '}
-        <a href="https://willianjusten.com.br/">Willian Justen </a>e
-        <a href="https://guilouro.dev"> Guilherme Louro</a>
-      </p>
-      <p>
-        Design por <a href="https://dribbble.com/vmarcosp">Marcos Oliveira</a>
+        Desenvolvido por <a href="https://brunomariano.me/">Bruno Mariano</a>
       </p>
     </Container>
   </S.Wrapper>
