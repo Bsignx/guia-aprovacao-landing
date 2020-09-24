@@ -73,6 +73,33 @@ const GET_LANDING_PAGE = /* GraphQL */ `
     }
   }
 
+  fragment pricingBox on LandingPage {
+    pricingBox {
+      totalPrice
+      discountPrice
+      benefits
+      button {
+        label
+        url
+      }
+    }
+  }
+
+  fragment author on LandingPage {
+    author {
+      name
+      role
+      socialLinks {
+        title
+        url
+      }
+      photo {
+        url
+        alternativeText
+      }
+    }
+  }
+
   query GET_LANDING_PAGE {
     landingPage {
       ...logo
@@ -82,6 +109,8 @@ const GET_LANDING_PAGE = /* GraphQL */ `
       ...sectionConcepts
       ...sectionModules
       ...quoteSection
+      ...pricingBox
+      ...author
     }
   }
 `

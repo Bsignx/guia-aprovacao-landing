@@ -58,6 +58,29 @@ export type quoteSection = {
   description: string
 }
 
+export type PricingBox = {
+  totalPrice: number
+  discountPrice: number
+  benefits: string
+  button: {
+    label: string
+    url: string
+  }
+}
+
+export type Author = {
+  name: string
+  role: string
+  socialLinks: {
+    title: string
+    url: string
+  }
+  photo: {
+    url: string
+    alternativeText: string
+  }
+}
+
 export type LandingPageProps = {
   logo: LogoProps
   header: HeaderProps
@@ -65,4 +88,6 @@ export type LandingPageProps = {
   sectionBenefits: sectionBenefits
   sectionConcepts: sectionConcepts
   sectionModules: sectionModules
+  quoteSection: quoteSection
+  pricingBox: PricingBox
 }
