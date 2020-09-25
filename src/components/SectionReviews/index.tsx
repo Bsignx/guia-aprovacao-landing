@@ -41,7 +41,7 @@ const SectionReviews = ({ title, reviews }: SectionReviewsProp) => (
           <ReviewCard
             key={index}
             name={name}
-            image={`${getImageUrl(url)}`}
+            image={getImageUrl(url)}
             description={text}
             id={index}
           />

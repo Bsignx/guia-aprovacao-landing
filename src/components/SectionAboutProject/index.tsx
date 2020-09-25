@@ -18,7 +18,7 @@ const SectionAboutProject = ({
         {image.map((item, index) => (
           <S.Image
             key={index}
-            src={`${getImageUrl(item.url)}`}
+            src={getImageUrl(item.url)}
             alt={item.alternativeText}
           />
         ))}

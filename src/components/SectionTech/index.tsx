@@ -16,7 +16,7 @@ const SectionTech = ({ benefits, title }: sectionBenefits) => (
         {benefits.map(({ title, description, image }, index) => (
           <S.Benefit key={index}>
             <S.Icons
-              src={`${getImageUrl(image.url)}`}
+              src={getImageUrl(image.url)}
               alt={image.alternativeText}
               loading="lazy"
             />
