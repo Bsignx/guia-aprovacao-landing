@@ -59,11 +59,13 @@ export const DiscountPrice = styled.p`
   `}
 `
 
-export const BenefitsList = styled.ul`
-  ${({ theme }) => css`
-    list-style: none;
-    margin-bottom: ${theme.spacings.large};
-  `}
+export const BenefitsList = styled.div`
+  ul {
+    ${({ theme }) => css`
+      list-style: none;
+      margin-bottom: ${theme.spacings.large};
+    `}
+  }
 
   li {
     ${({ theme }) => css`

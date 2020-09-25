@@ -16,21 +16,21 @@ const App = ({ Component, pageProps }: AppProps) => {
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
       </Head>
       <NextSeo
-        title="React Avançado - Crie aplicações reais com NextJS, GraphQL e mais."
-        description="Aprenda a criar um Ecommerce completo, indo do Backend ao Frontend utilizando tecnologias como ReactJS, NextJS, Strapi, GraphQL, Apollo e muito mais!"
-        canonical="https://reactavancado.com.br/"
+        title="Guia da Aprovação - Seja um Policial Militar agora mesmo!."
+        description="Se você é um concurseiro e sonha em ser policial, atenção!!!
+A policia militar do estado de São Paulo pode ser uma ótima oportunidade. Com 2 editais por ano a PM-SP é, sem dúvidas a melhor opção para quem deseja alcançar o tão sonhado cargo público."
+        canonical=""
         openGraph={{
-          url: 'https://reactavancado.com.br/',
-          title:
-            'React Avançado - Crie aplicações reais com NextJS, GraphQL e mais.',
+          url: 'https://reactavancado.com.br',
+          title: 'Guia da Aprovação - Seja um Policial Militar agora mesmo!.',
           description:
-            'Aprenda a criar um Ecommerce completo, indo do Backend ao Frontend utilizando tecnologias como ReactJS, NextJS, Strapi, GraphQL, Apollo e muito mais!',
+            'Se você é um concurseiro e sonha em ser policial, atenção!!! A policia militar do estado de São Paulo pode ser uma ótima oportunidade.Com 2 editais por ano a PM- SP é, sem dúvidas a melhor opção para quem deseja alcançar o tão sonhado cargo público.',
           images: [{ url: 'https://reactavancado.com.br/img/cover.png' }],
-          site_name: 'React Avançado',
+          site_name: 'Guia da Aprovação',
           locale: 'pt_BR'
         }}
         twitter={{
-          handle: '@Willian_justen',
+          handle: '@bsignx',
           site: '@site',
           cardType: 'summary_large_image'
         }}
