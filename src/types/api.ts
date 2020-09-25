@@ -1,56 +1,57 @@
-export type LogoProps = {
+export type Image = {
   alternativeText: string
   url: string
 }
 
+export type Button = {
+  label: string
+  url: string
+}
+
+export type LogoProps = Image
+
 export type HeaderProps = {
   title: string
   description: string
-  image: {
-    alternativeText: string
-    url: string
-  }
-  button: {
-    label: string
-    url: string
-  }
+  image: Image
+  button: Button
 }
 
 export type sectionAboutPage = {
   title: string
   description: string
-  image: Array<{
-    alternativeText: string
-    url: string
-  }>
+  image: Array<Image>
+}
+
+export type Benefit = {
+  title: string
+  description: string
+  image: Image
 }
 
 export type sectionBenefits = {
   title: string
-  benefits: Array<{
-    title: string
-    description: string
-    image: {
-      alternativeText: string
-      url: string
-    }
-  }>
+  benefits: Array<Benefit>
+}
+
+export type Concept = {
+  title
 }
 
 export type sectionConcepts = {
   title: string
-  concepts: Array<{
-    title
-  }>
+  concepts: Array<Concept>
+}
+
+export type Module = {
+  title: string
+  subtitle: string
+  description: string
 }
 
 export type sectionModules = {
   title: string
-  modules: Array<{
-    title: string
-    subtitle: string
-    description: string
-  }>
+  modules: Array<Module>
 }
 
 export type quoteSection = {
@@ -62,10 +63,12 @@ export type pricingBox = {
   totalPrice: number
   discountPrice: number
   benefits: string
-  button: {
-    label: string
-    url: string
-  }
+  button: Button
+}
+
+export type SocialLink = {
+  title: string
+  url: string
 }
 
 export type Author = {
@@ -73,34 +76,29 @@ export type Author = {
   role: string
   title: string
   description: string
-  socialLinks: Array<{
-    title: string
-    url: string
-  }>
-  photo: {
-    url: string
-    alternativeText: string
-  }
+  socialLinks: Array<SocialLink>
+  photo: Image
+}
+
+export type Review = {
+  name: string
+  text: string
+  photo: Image
 }
 
 export type SectionReviewsProp = {
   title: string
-  reviews: {
-    name: string
-    text: string
-    photo: {
-      url: string
-      alternativeText: string
-    }
-  }[]
+  reviews: Review[]
+}
+
+export type Question = {
+  question: string
+  answer: string
 }
 
 export type SectionFaq = {
   title: string
-  questions: {
-    question: string
-    answer: string
-  }[]
+  questions: Question[]
 }
 
 export type LandingPageProps = {
