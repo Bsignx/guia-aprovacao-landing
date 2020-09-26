@@ -21,11 +21,11 @@ const App = ({ Component, pageProps }: AppProps) => {
 A policia militar do estado de São Paulo pode ser uma ótima oportunidade. Com 2 editais por ano a PM-SP é, sem dúvidas a melhor opção para quem deseja alcançar o tão sonhado cargo público."
         canonical=""
         openGraph={{
-          url: 'https://reactavancado.com.br',
+          url: 'https://guia-aprovacao.netlify.app/',
           title: 'Guia da Aprovação - Seja um Policial Militar agora mesmo!.',
           description:
             'Se você é um concurseiro e sonha em ser policial, atenção!!! A policia militar do estado de São Paulo pode ser uma ótima oportunidade.Com 2 editais por ano a PM- SP é, sem dúvidas a melhor opção para quem deseja alcançar o tão sonhado cargo público.',
-          images: [{ url: 'https://reactavancado.com.br/img/cover.png' }],
+          images: [{ url: 'https://guia-aprovacao.netlify.app/img/cover.png' }],
           site_name: 'Guia da Aprovação',
           locale: 'pt_BR'
         }}
