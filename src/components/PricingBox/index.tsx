@@ -4,7 +4,7 @@ import Button from 'components/Button'
 import { gaEvent } from 'utils/ga'
 
 import * as S from './styles'
-import { PricingBox as pricingBox } from 'types/api'
+import { pricingBox } from 'types/api'
 
 const onClick = () =>
   gaEvent({ action: 'click', category: 'buy', label: 'pricing box button' })
