@@ -11,7 +11,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-        <meta name="theme-color" content="#06092B" />
+        <meta name="theme-color" content="#11111" />
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
       </Head>
